@@ -33,3 +33,11 @@ main{
     width: 311px;
     background: url('../imagens/frame-iphone.png') no-repeat; /*Adicionar a imagem e ativando a opção sem repetição*/
 }
+
+#tela{
+    position: relative; /*Ajustando o posicionamento do meu iframe dentro da minha imagem*/
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
+}
