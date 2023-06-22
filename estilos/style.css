@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+    height: 100vh; /*Altura total do navegador*/
+    width: 100vw; /*Largura total do navegador*/
+    background-color: black;
+}
+
+body{
+    background: url('../imagens/fundo-madeira.jpg') no-repeat top center; /*Adicioando a imagem de fundo do corpo a ativando a opção sem repetição no topo e centralizada*/
+    background-size: cover; /*Ativando a opção de cobrir a tela inteira*/
+    background-attachment: fixed; /* Permite que não aconteça uma barra de rolagem deixando nosso fundo fixo na tela*/
+    
+}
+
+main{
+    height: 100vh;
+    position: relative;/* Preparação para posicionar nossa imagem*/
+}
+
+#telefone{
+    position: absolute; /*Posicionamento da imagem*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /*Menos metade pra cima e menos para esquerda ( agora sim conseguimos centralizar a imagem no meio )*/
+    height: 627px;
+    width: 311px;
+    background: url('../imagens/frame-iphone.png') no-repeat; /*Adicionar a imagem e ativando a opção sem repetição*/
+}
