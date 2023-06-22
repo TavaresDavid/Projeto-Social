@@ -41,3 +41,22 @@ main{
     width: 269px;
     height: 471px;
 }
+
+#redes-sociais{
+    text-align: right; /* Colocar os icones do lado direito da tela*/
+}
+
+#redes-sociais img{
+    width: 50px; /*Ajustando a largura, por padrão é ajustado a altura */
+    margin: 10px; /*Espaçamento entre os ícones*/
+    border-radius: 50%; /*Transforma os ícones em imagens arredondadas ( totalmente circular )*/
+    box-shadow: 2px 2px 5px rgba(0, 0, 0.400);
+    box-sizing: border-box; /* Faz com que a borda faça parte da mesma caixa */
+}
+
+#redes-sociais img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.663);
+    transform: translate(-3px, -3px); /*Faz com que ao passar mouse por cima, o ícone dê uma leve enclinada para cima e para esquerda*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.601); /*Faz com que a sombra acompanha o ícone */
+    transition: transform 0.3s, border 0.2s; /*Aplica ao ícones uma transição de 0.3 centézimos. ( Nesse exemplo, aplicamos também o mesmo contexto para uma transição com a borda )*/
+}
