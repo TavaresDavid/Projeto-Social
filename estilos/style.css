@@ -38,7 +38,7 @@ main{
     position: relative; /*Ajustando o posicionamento do meu iframe dentro da minha imagem*/
     top: 80px;
     left: 22px;
-    width: 269px;
+    width: 267px;
     height: 471px;
 }
 
@@ -60,3 +60,4 @@ main{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.601); /*Faz com que a sombra acompanha o ícone */
     transition: transform 0.3s, border 0.2s; /*Aplica ao ícones uma transição de 0.3 centézimos. ( Nesse exemplo, aplicamos também o mesmo contexto para uma transição com a borda )*/
 }
+
